@@ -11,10 +11,10 @@ export default function App() {
   // frases (5)
   const phrases = [
     "Hoy me dio por hacer algo simple… pero con cariño.",
-    "No es para presionarte ni nada raro 😄",
+    "Sonara un poco cursi pero mi vida simplemente sonríe cuando tú apareces" 😄",
     "Solo quería sacarte una sonrisa aunque sea chiquita.",
-    "Si estás full, igual… aquí queda el detalle.",
-    "Y si algún día lo ves y te ríes… ya gané 😌",
+    "No te asustes, solo creo que mi Maps se daño porque todos mis caminos terminan buscándote.🫶",
+    "En resumen: tú eres mi norte, aunque yo a veces ande un poco al sur."
   ];
   const [phraseIndex, setPhraseIndex] = useState(0);
 
@@ -101,7 +101,7 @@ export default function App() {
       {step === 1 && (
         <div className="p-6 text-center max-w-2xl">
           <h1 className="text-4xl md:text-6xl font-bold">
-            Pensé en ti y quise hacer algo bonito
+            Pensé en ti y quise hacer algo bonito, yo no soy bonito pero me haces sentir cosas bonitas.
           </h1>
 
           <button
@@ -140,7 +140,9 @@ export default function App() {
       {step === 3 && (
         <div className="p-6 text-center w-full">
           <h1 className="font-bold text-4xl md:text-6xl text-center">
-            ¿Quieres ser mi Valentín?
+            ¿Y si este 14 empezamos algo sin ponerle nombre?
+            Tu decides como llamarlo...😉
+            Que dices ?
           </h1>
 
           <div className="grid grid-cols-1 md:grid-cols-2 mt-10 gap-5 items-center justify-center max-w-xl mx-auto">
