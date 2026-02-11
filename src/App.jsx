@@ -11,9 +11,9 @@ export default function App() {
   // frases (5)
   const phrases = [
     "Hoy me dio por hacer algo simple… pero con cariño.",
-    "Sonara un poco cursi pero mi vida simplemente sonríe cuando tú apareces" 😄",
+    "Sonará un poco cursi pero mi vida simplemente sonríe cuando tú apareces 😄",
     "Solo quería sacarte una sonrisa aunque sea chiquita.",
-    "No te asustes, solo creo que mi Maps se daño porque todos mis caminos terminan buscándote.🫶",
+    "No te asustes, solo creo que mi Maps se dañó porque todos mis caminos terminan buscándote 🫶",
     "En resumen: tú eres mi norte, aunque yo a veces ande un poco al sur."
   ];
   const [phraseIndex, setPhraseIndex] = useState(0);
@@ -141,8 +141,10 @@ export default function App() {
         <div className="p-6 text-center w-full">
           <h1 className="font-bold text-4xl md:text-6xl text-center">
             ¿Y si este 14 empezamos algo sin ponerle nombre?
-            Tu decides como llamarlo...😉
-            Que dices ?
+            <br />
+            Tú decides cómo llamarlo... 😉
+            <br />
+            ¿Qué dices?
           </h1>
 
           <div className="grid grid-cols-1 md:grid-cols-2 mt-10 gap-5 items-center justify-center max-w-xl mx-auto">
@@ -164,7 +166,6 @@ export default function App() {
               }}
             >
               {randomNoText}
-              <span hidden>{(document.title = randomNoText)}</span>
             </button>
           </div>
         </div>
