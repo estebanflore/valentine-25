@@ -20,6 +20,7 @@ export default function App() {
 
   // lógica del NO que huye (igual estilo del repo)
   const noMessages = [
+    "Si me dices que no, piénsalo 2 veces"
     "Di que sí pues 😅",
     "Piénsalo de nuevo 🤭",
     "Oe no seas mala 🙈",
@@ -27,9 +28,10 @@ export default function App() {
     "Ya pues… una vez 🫶",
     "No te me escapes 😆",
     "Dale, que está bonito 😌",
+    "Si me dices que no, piénsalo 2 veces"
   ];
 
-  const [randomNoText, setRandomNoText] = useState(noMessages[0]);
+  const [randomNoText, setRandomNoText] = useState("Si me dices que no, piénsalo 2 veces");
   const [buttonPosition, setButtonPosition] = useState({ top: 0, left: 0 });
   const [position, setPosition] = useState("relative");
 
@@ -140,9 +142,9 @@ export default function App() {
       {step === 3 && (
         <div className="p-6 text-center w-full">
           <h1 className="font-bold text-4xl md:text-6xl text-center">
-            ¿y si este 14 nos convertimos en "esa cosa rara pero linda" sin ponerle etiqueta?
+            ¿Y si este 14 nos convertimos en "esa cosa rara pero linda" sin ponerle etiqueta?
             <br />
-            Tú decides cómo llamarlo: ¿"mi crush favorito", "pareja en modo beta" o "tú y yo contra el mundo"? 😉
+            Tú decides cómo llamarlo: ¿"mi crush favorito", "pareja en modo beta" o "tú y yo contra el mundo"? 😊
             <br />
             ¿Qué dices?
           </h1>
@@ -152,7 +154,7 @@ export default function App() {
               onClick={onYes}
               className="bg-green-500 text-white font-bold p-3 rounded-md text-xl"
             >
-              Sí
+              Si me dices que sí puede que te equivoques
             </button>
 
             <button
