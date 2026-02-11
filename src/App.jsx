@@ -140,9 +140,9 @@ export default function App() {
       {step === 3 && (
         <div className="p-6 text-center w-full">
           <h1 className="font-bold text-4xl md:text-6xl text-center">
-            ¿Y si este 14 empezamos algo sin ponerle nombre?
+            ¿y si este 14 nos convertimos en "esa cosa rara pero linda" sin ponerle etiqueta?
             <br />
-            Tú decides cómo llamarlo... 😉
+            Tú decides cómo llamarlo: ¿"mi crush favorito", "pareja en modo beta" o "tú y yo contra el mundo"? 😉
             <br />
             ¿Qué dices?
           </h1>
